@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="d3dc470061cb4d7790dee0aabaf9f808" Name="Diagram1" ZoomLevel="74">
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Client" Width="1.5" PointX="0.75" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.ClientService" Width="1.5" PointX="7.625" PointY="2.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.DocumentByService" Width="1.5" PointX="7.75" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Gender" Width="1.5" PointX="1.5" PointY="8.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Manufacturer" Width="1.5" PointX="10.25" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Product" Width="1.5" PointX="13.875" PointY="1.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.ProductPhoto" Width="1.5" PointX="16.875" PointY="2.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.ProductSale" Width="1.5" PointX="10.375" PointY="0.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Service" Width="1.5" PointX="5.75" PointY="6.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.ServicePhoto" Width="1.5" PointX="8.125" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Baybakov_AutoserviceModel.Tag" Width="1.5" PointX="4.625" PointY="1.875" IsExpanded="true" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_Client_Gender" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ClientService_Client" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ClientService_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_DocumentByService_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ProductSale_ClientService" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_Product_Manufacturer" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ProductPhoto_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ProductSale_Product" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.FK_ServicePhoto_Service" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.AttachedProduct" ManuallyRouted="false" />
+        <AssociationConnector Association="Baybakov_AutoserviceModel.TagOfClient" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
